@@ -1,0 +1,12 @@
+#python program to accept two complex numbers from th user and display their ssum difference and products;
+from math import*;
+x=input("complex number of the form a+bj =");
+x=complex(x);
+y=input("complex number of the form a+bj=");
+y=complex(y);
+p=x+y;
+q=x-y;
+r=x*y;
+print ("the sum of the entered numbers is"+str(p));
+print("the difference of the entered numbers are"+str(q));
+print("the product of the entered numbers are"+str(r));
